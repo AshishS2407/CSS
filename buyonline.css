@@ -1,0 +1,22 @@
+.se {
+    text-align: center;
+}
+.new {
+    font-size: larger; font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
+}
+.neww {
+    width: 90px; height: 40px; border-radius: 10px; background-color: rgb(201, 79, 79);
+}
+
+input:hover {
+    color: blue;
+}
+.dropdown-content {
+    visibility: hidden;
+}
+img:hover + .dropdown-content {
+    visibility : visible;
+}
+
